@@ -1,9 +1,4 @@
-/*
-@author: Ahmed Alsabbah
-Date: August 30, 2016
-Testcode program
-/*
- */
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
