@@ -8,9 +8,9 @@ public class FahrenheitCelsius {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	double f = 30;
-	double c = (5.0 / 9) * (f - 32);
-	System.out.println(c);
+	double F = 30;
+	double C = (5 / 9) * (F - 32);
+	System.out.println("C");
 
 	}
 
