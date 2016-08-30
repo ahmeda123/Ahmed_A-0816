@@ -5,8 +5,7 @@ public class DoMath {
 		// TODO Auto-generated method stub
 			
 		double result;
-		result = Calculate.square(5);
-		System.out.println(result);
+		result = square(5);
 	}
 
 }
