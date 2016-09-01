@@ -7,9 +7,8 @@ public class DoMath {
 		double result;
 		result = Calculate.square(5);
 		System.out.println(result);
-		
-		result = Calculate.cube(3);
-		System.out.println(result);
+	
+		result = Calculate.average(7.0, 3.0)
 	}
 
 }
