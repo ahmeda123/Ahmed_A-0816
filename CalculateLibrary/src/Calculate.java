@@ -115,7 +115,8 @@ public class Calculate { //math library that includes several math methods
 		int n1 = 0;
 		double answer = 1;
 		while(n1 <= 0) {
-			answer *= answer ;
+			answer *= answer;
+		n1++
 		}
 		return (answer);
 	}
