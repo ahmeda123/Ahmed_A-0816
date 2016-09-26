@@ -58,7 +58,7 @@ public class DoMath { //tests the Calculate Library
 		
 		*/
 		boolean sol;
-		result = Calculate.exponent(6.0, 2);
+		result = Calculate.exponent(6, 2);
 		System.out.println(result);
 		
 		result = Calculate.factorial(4);

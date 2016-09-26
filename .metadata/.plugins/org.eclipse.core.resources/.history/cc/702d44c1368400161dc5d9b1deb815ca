@@ -5,7 +5,6 @@ public class DoMath { //tests the Calculate Library
 		// TODO Auto-generated method stub
 			
 		double result;
-		/*
 		
 		result = Calculate.square(5);
 		System.out.println(result);
@@ -56,9 +55,7 @@ public class DoMath { //tests the Calculate Library
 		result = Calculate.round2(3.682);
 		System.out.println(result);
 		
-		*/
-		boolean sol;
-		result = Calculate.exponent(6.0, 2);
+		result = Calculate.exponent(4, 2);
 		System.out.println(result);
 		
 		result = Calculate.factorial(4);
@@ -73,7 +70,6 @@ public class DoMath { //tests the Calculate Library
 		result = Calculate.sqrt(4);
 		System.out.println(result);
 		
-		String ans;
 		ans = Calculate.quadForm(3, 5, 1);
 		System.out.println(ans);
 	}
