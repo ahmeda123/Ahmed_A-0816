@@ -108,16 +108,17 @@ public class Calculate { //math library that includes several math methods
 		return(div);
 	}
 
-	public static double exponent(double base, int exp) { //finds x to the power of y
-		if (exp < 0) {
+	public static double exponent(double x, int y) { //finds x to the power of y
+		if (y < 0) {
 			throw new IllegalArgumentException("Numbers cannot be negative");
 		}
-		double product = 1;
-		for (int i = 0; i <= exp; i++) {
-			product = product * base;
-			
+		int n1 = 0;
+		double answer = 1;
+		while(n1 <= 0) {
+			answer *= y;
+		n1++;
 		}
-		return (product);
+		return (answer);
 	}
 	
 	public static int factorial(int n1) { //finds the factorial of a number
