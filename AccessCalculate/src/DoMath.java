@@ -1,5 +1,5 @@
 
-public class DoMath {
+public class DoMath { //tests the Calculate Library
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,10 +24,53 @@ public class DoMath {
 		result = Calculate.discriminant(3, 5, 1);
 		System.out.println(result);
 		
+		String ans;
 		
+		ans = Calculate.toImproperFrac(3, 1, 2);
+		System.out.println(ans);
 		
+		ans = Calculate.toMixedNum(7, 2);
+		System.out.println(ans);
+		
+		ans = Calculate.foil(3, 5, 1, 2, "n");
+		System.out.println(ans);
+		
+		boolean sol;
+		
+		sol = Calculate.isDivisibleBy(4,2);
+		System.out.println(sol);
+		
+		result = Calculate.absValue(8);
+		System.out.println(result);
 	
+		result = Calculate.max(3, 5);
+		System.out.println(result);
 		
+		result = Calculate.max(3, 4, 5);
+		System.out.println(result);
+		
+		result = Calculate.min(5, 6);
+		System.out.println(result);
+		
+		result = Calculate.round2(3.682);
+		System.out.println(result);
+		
+		result = Calculate.exponent(4, 2);
+		System.out.println(result);
+		
+		result = Calculate.factorial(4);
+		System.out.println(result);
+		
+		sol = Calculate.isPrime(4);
+		System.out.println(sol);
+		
+		result = Calculate.gcf(8, 2);
+		System.out.println(result);
+		
+		result = Calculate.sqrt(4);
+		System.out.println(result);
+		
+		ans = Calculate.quadForm(3, 5, 1);
+		System.out.println(ans);
 	}
-
 }
