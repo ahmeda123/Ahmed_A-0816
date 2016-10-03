@@ -1,0 +1,20 @@
+
+
+import java.util.*;
+
+public class ProcessingNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner userInput = new Scanner(System.in);
+		int nextNum;
+		int max, min;
+		int total = 0;
+		
+		System.out.println("Enter the integers you would like to process separated by a space");
+		
+
+	}
+
+}
